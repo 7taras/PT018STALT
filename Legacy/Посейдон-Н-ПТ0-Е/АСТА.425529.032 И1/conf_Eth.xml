@@ -1,0 +1,192 @@
+<?xml version="1.0" standalone="yes"?>
+<diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+  <CfgDataSet xmlns="CfgDataSet.xsd">
+    <devices diffgr:id="devices1" msdata:rowOrder="0">
+      <address>1</address>
+      <type>АППКУП Посейдон-Н-ПТ-E</type>
+      <level_id />
+      <adapter_address>0</adapter_address>
+      <Description xml:space="preserve"> </Description>
+      <NumPR>0</NumPR>
+    </devices>
+    <devices diffgr:id="devices2" msdata:rowOrder="1">
+      <address>257</address>
+      <type>АМ Посейдон-Н-АМ(в)</type>
+      <level_id>PH_PANEL_MASTER</level_id>
+      <adapter_address>0</adapter_address>
+      <Description xml:space="preserve"> </Description>
+      <NumPR>1</NumPR>
+    </devices>
+    <ph_panel diffgr:id="ph_panel1" msdata:rowOrder="0">
+      <address>1</address>
+      <modification>АППКУП Посейдон-Н-ПТ0_E</modification>
+    </ph_panel>
+    <zones_f diffgr:id="zones_f1" msdata:rowOrder="0">
+      <number>1</number>
+      <ph_panel_address>1</ph_panel_address>
+      <text />
+    </zones_f>
+    <ph_amin diffgr:id="ph_amin1" msdata:rowOrder="0">
+      <address>257</address>
+      <flagControl>1</flagControl>
+      <numberZone>0</numberZone>
+      <textZone>""</textZone>
+    </ph_amin>
+    <ph_amin_io diffgr:id="ph_amin_io1" msdata:rowOrder="0">
+      <address>257</address>
+      <io_num>1</io_num>
+      <enabled>true</enabled>
+      <isnormalclosed>false</isnormalclosed>
+      <threshold1>Прошла команда пуска</threshold1>
+      <threshold2>Прошла команда пуска</threshold2>
+      <norm>Извещение не задано</norm>
+      <zone>1</zone>
+      <text />
+      <io_typ>false</io_typ>
+      <recalc>0</recalc>
+      <offPowerTime>0</offPowerTime>
+      <timeIgnore>0</timeIgnore>
+      <fireResetFlag>0</fireResetFlag>
+    </ph_amin_io>
+    <ph_amin_io diffgr:id="ph_amin_io2" msdata:rowOrder="1">
+      <address>257</address>
+      <io_num>2</io_num>
+      <enabled>true</enabled>
+      <isnormalclosed>false</isnormalclosed>
+      <threshold1>Пожар2</threshold1>
+      <threshold2>Пожар2</threshold2>
+      <norm>Извещение не задано</norm>
+      <zone>1</zone>
+      <text />
+      <io_typ>true</io_typ>
+      <recalc>0</recalc>
+      <offPowerTime>0</offPowerTime>
+      <timeIgnore>0</timeIgnore>
+      <fireResetFlag>0</fireResetFlag>
+    </ph_amin_io>
+    <ph_amin_io diffgr:id="ph_amin_io3" msdata:rowOrder="2">
+      <address>257</address>
+      <io_num>3</io_num>
+      <enabled>false</enabled>
+      <isnormalclosed>false</isnormalclosed>
+      <threshold1>Пожар1</threshold1>
+      <threshold2>Пожар2</threshold2>
+      <norm>Извещение не задано</norm>
+      <zone>0</zone>
+      <text />
+      <io_typ>true</io_typ>
+      <recalc>0</recalc>
+      <offPowerTime>0</offPowerTime>
+      <timeIgnore>0</timeIgnore>
+      <fireResetFlag>0</fireResetFlag>
+    </ph_amin_io>
+    <ph_amin_io diffgr:id="ph_amin_io4" msdata:rowOrder="3">
+      <address>257</address>
+      <io_num>4</io_num>
+      <enabled>false</enabled>
+      <isnormalclosed>false</isnormalclosed>
+      <threshold1>Пожар1</threshold1>
+      <threshold2>Пожар2</threshold2>
+      <norm>Извещение не задано</norm>
+      <zone>0</zone>
+      <text />
+      <io_typ>true</io_typ>
+      <recalc>0</recalc>
+      <offPowerTime>0</offPowerTime>
+      <timeIgnore>0</timeIgnore>
+      <fireResetFlag>0</fireResetFlag>
+    </ph_amin_io>
+    <ph_amin_io diffgr:id="ph_amin_io5" msdata:rowOrder="4">
+      <address>257</address>
+      <io_num>5</io_num>
+      <enabled>false</enabled>
+      <isnormalclosed>false</isnormalclosed>
+      <threshold1>Пожар1</threshold1>
+      <threshold2>Пожар2</threshold2>
+      <norm>Извещение не задано</norm>
+      <zone>0</zone>
+      <text />
+      <io_typ>true</io_typ>
+      <recalc>0</recalc>
+      <offPowerTime>0</offPowerTime>
+      <timeIgnore>0</timeIgnore>
+      <fireResetFlag>0</fireResetFlag>
+    </ph_amin_io>
+    <ph_amin_io diffgr:id="ph_amin_io6" msdata:rowOrder="5">
+      <address>257</address>
+      <io_num>6</io_num>
+      <enabled>false</enabled>
+      <isnormalclosed>false</isnormalclosed>
+      <threshold1>Пожар1</threshold1>
+      <threshold2>Пожар2</threshold2>
+      <norm>Извещение не задано</norm>
+      <zone>0</zone>
+      <text />
+      <io_typ>true</io_typ>
+      <recalc>0</recalc>
+      <offPowerTime>0</offPowerTime>
+      <timeIgnore>0</timeIgnore>
+      <fireResetFlag>0</fireResetFlag>
+    </ph_amin_io>
+    <ph_amin_io diffgr:id="ph_amin_io7" msdata:rowOrder="6">
+      <address>257</address>
+      <io_num>7</io_num>
+      <enabled>false</enabled>
+      <isnormalclosed>false</isnormalclosed>
+      <threshold1>Пожар1</threshold1>
+      <threshold2>Пожар2</threshold2>
+      <norm>Извещение не задано</norm>
+      <zone>0</zone>
+      <text />
+      <io_typ>true</io_typ>
+      <recalc>0</recalc>
+      <offPowerTime>0</offPowerTime>
+      <timeIgnore>0</timeIgnore>
+      <fireResetFlag>0</fireResetFlag>
+    </ph_amin_io>
+    <ph_amin_io diffgr:id="ph_amin_io8" msdata:rowOrder="7">
+      <address>257</address>
+      <io_num>8</io_num>
+      <enabled>false</enabled>
+      <isnormalclosed>false</isnormalclosed>
+      <threshold1>Пожар1</threshold1>
+      <threshold2>Пожар2</threshold2>
+      <norm>Извещение не задано</norm>
+      <zone>0</zone>
+      <text />
+      <io_typ>true</io_typ>
+      <recalc>0</recalc>
+      <offPowerTime>0</offPowerTime>
+      <timeIgnore>0</timeIgnore>
+      <fireResetFlag>0</fireResetFlag>
+    </ph_amin_io>
+    <informVer diffgr:id="informVer1" msdata:rowOrder="0">
+      <version_programm>06.09.2016  16:39:20 Version  3.0.6064.18640</version_programm>
+      <NumString>1</NumString>
+    </informVer>
+    <tcp_ip diffgr:id="tcp_ip1" msdata:rowOrder="0">
+      <address>1</address>
+      <IPAdres>10.15.33.1</IPAdres>
+      <IpAdresDown>10.15.33.1</IpAdresDown>
+      <Maska>255.255.255.0</Maska>
+      <Shlus>10.15.33.0</Shlus>
+      <PortIn>7500</PortIn>
+      <PortOut>6500</PortOut>
+      <MaskaDown>255.255.255.0</MaskaDown>
+      <ShlusDown>10.15.33.0</ShlusDown>
+      <IPValue>18943754</IPValue>
+    </tcp_ip>
+    <tcp_ip diffgr:id="tcp_ip2" msdata:rowOrder="1">
+      <address>257</address>
+      <IPAdres>10.15.33.2</IPAdres>
+      <IpAdresDown>10.15.33.2</IpAdresDown>
+      <Maska>255.255.255.0</Maska>
+      <Shlus>10.15.33.0</Shlus>
+      <PortIn>7500</PortIn>
+      <PortOut>0</PortOut>
+      <MaskaDown>255.255.255.0</MaskaDown>
+      <ShlusDown>10.15.33.0</ShlusDown>
+      <IPValue>35720970</IPValue>
+    </tcp_ip>
+  </CfgDataSet>
+</diffgr:diffgram>
